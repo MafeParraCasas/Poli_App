@@ -19,5 +19,9 @@
     <string name="usuario">Usuario</string>
     <string name="guardar_cambios">Guardar Cambios</string>
     <string name="politikect">POLITIKECT</string>
+    <string name="guardar">Guardar</string>
+    <string name="descripci_n">Descripción</string>
+    <string name="t_tulo">Título</string>
+    <string name="agregar_foto">Agregar foto</string>
 
 </resources>
