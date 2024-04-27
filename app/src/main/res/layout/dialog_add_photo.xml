@@ -29,7 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/guardar"
-        android:background="@color/colorAzul"
+        android:background="@color/teal_700"
         android:textColor="@android:color/white" />
 
 </LinearLayout>

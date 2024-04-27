@@ -43,6 +43,12 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:rippleColor="#0071CC" />
 
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="427dp"
+                    android:layout_height="40dp"
+                    android:fontFamily="Arial"
+                    android:text="@string/politikect" />
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="427dp"
@@ -56,3 +62,7 @@
 
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </FrameLayout>
