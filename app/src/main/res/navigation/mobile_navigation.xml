@@ -31,7 +31,7 @@
 
     <fragment
         android:id="@+id/nav_web_"
-        android:name="com.example.poli_app.ui.web.WebFragment"
+        android:name="com.example.poli_app.ui.web.webfragment"
         android:label="@string/menu_web_"
         tools:layout="@layout/fragment_web" />
 
