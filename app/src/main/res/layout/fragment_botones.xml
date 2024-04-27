@@ -1,13 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.botones.BotonesFragment">
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/inputNumero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa un número del 1 al 6"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/botonApostar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apostar" />
+
+    <ImageView
+        android:id="@+id/imagenDado"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/dado_1"
+        android:background="@drawable/dado_background"
+        android:padding="10dp" />
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello" />
+        android:id="@+id/textViewResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
-</FrameLayout>
+</LinearLayout>
